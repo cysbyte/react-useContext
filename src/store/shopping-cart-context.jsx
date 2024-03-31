@@ -9,7 +9,7 @@ export const CartContext = createContext({
 });
 
 function shoppingCartReducer(state, action) {
-    console.log('add_item')
+    // console.log('add_item')
     if (action.type === 'ADD_ITEM') {
         
         const updatedItems = [...state.items];
